@@ -1,0 +1,14 @@
+{
+  "id": "acode.plugin.package",
+  "name": "Package Adder",
+  "main": "dist/main.js",
+  "version": "1.0.2",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [],
+  "author": {
+    "name": "Fousseyni DIALLO",
+    "email": "tysoncoding2@gmail.com",
+    "github": "TysonCoding"
+  }
+}
