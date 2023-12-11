@@ -1,0 +1,182 @@
+#acode-plugin-package{
+    .hide{
+        display: none;
+    }
+    .plugPage1{
+        max-height: 100%;
+        padding: 10px;
+        .searchBar{
+            display: flex;
+            padding: 10px;
+            .searchInput{
+                padding: 5px;
+                width: 100%;
+                margin-right: 10px;
+                font-size: 18px;
+            }
+            button{
+                border: none;
+                background: var(--button-background-color);
+                color: var(--button-text-color);
+                padding: 10px;
+                border-radius: 10px;
+                font-size: 18px;
+            }
+        }
+        .mainlistCont{
+            height: calc(100vh - 12rem);
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            overflow-y: scroll;
+            margin-top: 15px;
+            &::-webkit-scrollbar {
+                width: 8px;
+            }
+            &::-webkit-scrollbar-track {
+                background: var(--secondary-color);
+            }
+            &::-webkit-scrollbar-thumb {
+                background: var(--scrollbar-color);
+            }
+            ul{
+                list-style: none;
+                li{
+                    padding: 20px;
+                    margin-bottom: 15px;
+                    max-height: 100%;
+                    border-radius: 10px;
+                    &:hover{
+                        background: var(--primary-color);
+                        transition: 0.3s ease-in-out;
+                    }
+                    .pkgHeader{
+                        display: flex;
+                        h4{
+                            margin-left: 20px;
+                            font-weight: 500;
+                            font-size: 16px;
+                        }
+                    }
+                    .pkgMain{
+                        display: flex;
+                        margin-top: 10px;
+                        p{
+                            width: 100%;
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+                        span{
+                            display: flex;
+                            align-items: center;
+                            font-size: 25px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .plugPage2{
+        max-height: 100%;
+        padding: 10px;
+        .headerDiv{
+            display: flex;
+            padding: 20px;
+            h2{
+                font-size: 20px;
+                width: 100%;
+                font-weight: 500;
+            }
+            select{
+                padding: 8px;
+                margin-left: 10px;
+                outline: none;
+                width: 100px;
+                background: transparent;
+                color: var(--secondary-text-color);
+                border: 1px solid var(--primary-color);
+                box-shadow: 0 2px 4px var(--box-shadow-color);
+            }
+        }
+        .mainDiv{
+            padding: 20px;
+            .group{
+                margin-bottom: 25px;
+                label{
+                    font-size: 15px;
+                    color: var(--border-color);
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 17px;
+                    font-weight: 400;
+                }
+                ul {
+                    list-style: none;
+                    height: calc(100vh - 38rem);
+                    overflow-y: scroll;
+                    margin-top: 8px;
+                    border: 1px dotted var(--border-color);
+                    padding: 5px;
+                    &::-webkit-scrollbar {
+                        width: 6px;
+                    }
+                    &::-webkit-scrollbar-track {
+                        background: var(--secondary-color);
+                    }
+                    &::-webkit-scrollbar-thumb {
+                        background: var(--scrollbar-color);
+                    }
+                    li{
+                        display: flex;
+                        margin-top: 6px;
+                        font-size: 17px;
+                        font-weight: 400;
+                        .filesCheckBox{
+                            border-radius: 4px;
+                            border: solid 1px var(--secondary-text-color);
+                            accent-color: var(--button-background-color);
+                        }
+                        .filesLabel{
+                            width: 100%;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-bottom: 5px;
+            width: 100%;
+            position: fixed;
+            bottom:0;
+            overflow: hidden;
+            .backBtn{
+                border: none;
+                background: var(--primary-color);
+                color: var(--button-text-color);
+                padding: 12px;
+                border-radius: 10px;
+                font-size: 18px;
+                width: calc(100vh - 60%);
+                margin-right: 10px;
+            }
+            .addLibBtn{
+                border: none;
+                background: var(--button-background-color);
+                color: var(--button-text-color);
+                padding: 12px;
+                border-radius: 10px;
+                font-size: 16px;
+                width: calc(100vh - 50%);
+                margin-right: 16px;
+            }
+        }
+    }
+}
