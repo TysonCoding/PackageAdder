@@ -21,7 +21,7 @@ Contribution are always welcome!
 ---
 
 **Provide your feedbacks and suggestions and also report bugs(if found) on bellow link**
-> https://github.com/bajrangCoder/acode-plugin-package
+> https://github.com/TysonCoding/PackageAdder
 
 **Leave a star 🌟⭐🌟 on github, if this plugin helpfull to you**
 
